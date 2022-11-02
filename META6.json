@@ -17,7 +17,9 @@
   "resources": [
   ],
   "source-url": "https://github.com/lizmat/are.git",
-  "tags": [ "TYPE", "NAUGHTY"
+  "tags": [
+    "TYPE",
+    "NAUGHTY"
   ],
   "test-depends": [
   ],
