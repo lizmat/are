@@ -1,0 +1,11 @@
+use Test;
+use are;
+
+plan 4;
+
+is-deeply are(1,1.2,pi),                  Real,    'Real ok?';
+is-deeply (1,1.2,pi,i).&are,             Numeric, 'Nummeric ok?';
+is-deeply (1,"one").&are,                Cool,    'Cool ok?';
+is-deeply are(DateTime.now, Date.today), Dateish, 'Datish ok?';
+
+# vim: expandtab shiftwidth=4

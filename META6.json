@@ -1,0 +1,25 @@
+{
+  "auth": "zef:lizmat",
+  "authors": [
+    "Elizabeth Mattijsen"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "produce the common type / role of a list of objects",
+  "license": "Artistic-2.0",
+  "name": "are",
+  "perl": "6.d",
+  "provides": {
+    "are": "lib/are.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "https://github.com/lizmat/are.git",
+  "tags": [ "TYPE", "NAUGHTY"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
